@@ -1,0 +1,60 @@
+html {
+    font-size: 16px;
+    font-family: Oswald;
+}
+
+body {
+    background-color: darksalmon;
+    margin: 8px 0;
+}
+
+.nav-bar li {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.intro {
+    height: 30rem;
+    padding-top: 1rem;
+}
+
+.intro .flag {
+    height: 8rem;
+}
+
+#top {
+    background-color: red;
+}
+
+#bottom {
+    background-color: green;
+}
+
+.intro h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: darksalmon;
+    height: 8rem;
+    margin: 0;
+}
+
+.about {
+    margin-left: 1rem;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.photos img {
+    border-radius: 5%;
+    width: 30%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0.5rem;
+}
