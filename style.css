@@ -76,6 +76,17 @@ a {
     color: rgba(255, 255, 0, 0.9);
 }
 
+.contact {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#rick {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 55rem) {
     .photos {
       flex-direction: column;
@@ -84,6 +95,30 @@ a {
 
     .photos img {
         width: 80%;
+    }
+
+    .intro h1 {
+        height: 10rem;
+    }
+
+    #top {
+        height: 10rem;
+    }
+
+    #bottom {
+        height: 10rem;
+    }
+
+    h1 img {
+        height: 10rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .intro {
+        height: fit-content;
     }
 }
 
@@ -96,4 +131,5 @@ a {
     .photos img {
       width: 100%;
     }
+
   }
