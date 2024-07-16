@@ -126,6 +126,10 @@ a {
     .intro {
         height: fit-content;
     }
+
+    .testimonial {
+        height: 22rem;
+    }
 }
 
   @media only screen and (max-width: 320px) {
