@@ -76,6 +76,11 @@ a {
     color: rgba(255, 255, 0, 0.9);
 }
 
+.testimonial p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .contact {
     display: grid;
     align-content: center;
